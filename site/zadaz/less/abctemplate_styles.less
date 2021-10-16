@@ -1,0 +1,116 @@
+@text: hsla(18, 46%, 21%, 1);
+@text-while: hsla(0, 100%, 100%, 1);
+
+html{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+}	
+body{
+background-color: hsla(90, 11%, 93%, 0.5);
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: left;
+}
+p{
+	margin: 0;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+.background{
+	background-image: url(/Images/midle-background.png);
+	background-repeat: repeat-y;
+	background-position: top center;
+	background-size: cover;
+	min-height: 100vh;
+	padding: 0;
+	box-shadow: 0 0 20px;
+}
+
+						/*NEWS*/
+
+.background-news{
+	border: 0.1rem solid hsla( 100, 3%, 81%, 1);
+	background-color:@text-while;
+	margin: 10%;
+	padding: 1rem;
+}
+.news-header{
+	border-bottom: 0.1rem dotted hsla( 327, 51%, 34%, 1);
+	margin-bottom: 1rem;
+}
+
+.news-mains{
+	.news{
+	padding: 1rem;
+	}
+}
+
+.news-headlink{
+	display: flex;
+	flex-direction: row;
+	padding-top: 1.5rem;
+	h6{
+		background-color: hsla( 327, 51%, 34%, 1);
+		color: @text-while;
+		padding: 0  0.5rem;
+	}
+	a{
+		padding: 0 0.5rem;
+	}
+}
+
+.news-footer{
+	border-top: 0.1rem dotted hsla( 327, 51%, 34%, 1);
+	margin: 1rem 0;
+	
+}
+
+.positeon-newspages{
+	display: flex;
+	flex-direction: row;
+	a:hover{
+		color: white;
+    	background: hsla( 327, 51%, 34%, 1);
+   		text-decoration: none;
+	}
+}
+
+.news-pages{
+	text-align: center;
+	padding: 0 1rem;
+	margin: 0.1rem;
+    color: black;
+    background: #d3cfcf;
+	border: 1px solid hsl(327deg 3% 62%);
+
+}
+
+
+a.link-news{
+	color:  hsla( 327, 51%, 34%, 1);
+	:hover{
+		color:  hsla( 327, 51%, 34%, 1);
+	}
+}
+
+						/*HEADER*/
+
+.header{
+	background-color: hsla(18, 46%, 21%, 1);
+	min-height: 16vh;
+
+}
+.php-test{
+	text-align: center;
+
+}
+
