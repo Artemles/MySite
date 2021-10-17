@@ -5,16 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="..\style.css">
 </head>
 <body>
-	
-	<div class="list_games">
-		<a href="site\dinoGames.php">DinoGames</a>
-		
+	<a href="..\index.php">Главный сайт</a>
+    
+	<div class="game">
+
+		<div id="dino"></div>
+		<div id="cactus"></div>
 		
 	</div>	
 
-<script src="js/script.js"></script>
+<script src="..\js/script.js"></script>
 </body>
 </html>
