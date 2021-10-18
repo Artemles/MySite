@@ -1,6 +1,15 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 
+start.addEventListener("click", function() {
+    cactus.style.animation = "cactusMov 3s infinite linear";
+})
+
+paus.addEventListener("click", function paus(){
+    cactus.style.animation = "none"
+})
+
+
  document.addEventListener("keydown", function(event) {
      jump();
  } )
@@ -20,7 +29,7 @@ let isAlive = setInterval ( function() {
     let cactusleft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
     if (cactusleft < 50 && cactusleft > 0 && dinoTop >= 140) {
-        alert("GAME OVER!")
+        alert("GAME OVER!");
     }
 
 }, 10)

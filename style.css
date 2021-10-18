@@ -5,6 +5,31 @@
     margin: auto;
 }
 
+.gameControl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 2rem;
+}
+
+.gameStart{
+    background: green;
+    border-radius: 15px;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.gamePaus{
+    background-color: orange;
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
 #dino{
     height: 50px;
     width: 50px;
@@ -22,7 +47,6 @@
     position: relative;
     top: 110px;
     left: 580px;
-    animation: cactusMov 2s infinite linear;
 }
 
 @keyframes cactusMov {
