@@ -7,24 +7,40 @@ html{
     font-size: 10px;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+:root {
+    --black-color:   #000000;
+    --blackmedium-color:#333;
+    --about-color:   #008073;
+    --exp-color:     #00bcd4;
+    --projects-color:#3f51b5;
+    --games-color:   #e9967a;
+    --skills-color:  #9c27b0;
+    --awards-color:  #F44336;
+    --education-color:#ff9800;
+    --contact-color: #795548;
+    --blog-color:    #fbc02d;
+    --resume-color:  #424242;
+    --liteGray-color:#fafafa;
+    --gray-color:    #dddddd;
 }
 
+a{
+    color: var(--black-color);
+    text-decoration: none;
+}
 
 .nav__list{
     left: 0;
     position: fixed;
-    width: 190px;
+    width: 19rem;
 }
 
 .nav__listLogo{
-    background-color: #fafafa;
-    border-bottom: 1px solid #ddd;
+    background-color: var(--liteGray-color);
+    border-bottom: 1px solid var(--gray-color);
     box-sizing: content-box;
     min-height: 90px;
-    padding: 30px 30px 40px;
+    padding: 3rem 3rem 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,59 +48,52 @@ a{
 
 .logo{
     font-size: 2.6rem;
-    color: #008073;
+    color: var(--about-color);
 }
 
 .brown__text{
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 300;
-    color: #795548;
+    color: var(--contact-color);
     margin-top: 1rem;
 }
 
 .nav__listItem{
-    box-sizing: content-box;
     display: block;
     line-height: 100%;
-    padding: 10px 0 12px;
-    font-weight: 300;
     font-size: 1.7rem;
-    color: #333;
+    color: var(--blackmedium-color);
+}
+.nav__listItem:hover{
+    background-color: var(--liteGray-color);
+    border-left: 5px solid var(--about-color);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.nav__listItem a{
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0 1.2rem;
+    font-weight: 300;
 }
 
 .icon{
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 1rem;
-    padding: 1rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    margin: 0 1rem;
 }
 
-.icon__adout{
-    background-image: url(/Images);
-}
-.icon__exp{
-    background-image: url(/Images);
-}
-.icon__projects{
-    background-image: url(/Images);
-}
-.icon__skills{
-    background-image: url(/Images);
-}
-.icon__awards{
-    background-image: url(/Images);
-}
-.icon__education{
-    background-image: url(/Images/education.png);
-}
-.icon__contact{
-    background-image: url(/Images);
-}
-.icon__blog{
-    background-image: url(/Images/blog.png);
-}
-.icon__resume{
-    background-image: url(/Images/);
-}
+.icon__about   { fill: var(--about-color);}
+.icon__exp     { fill: var(--exp-color);}
+.icon__projects{ fill: var(--projects-color);}
+.icon__games   { fill: var(--games-color);}
+.icon__skills  { fill: var(--skills-color);}
+.icon__awards  { fill: var(--awards-color);}
+.icon__education{ fill:var(--education-color);}
+.icon__contact { fill: var(--contact-color);}
+.icon__blog    { fill: var(--blog-color);}
+.icon__resume  { fill: var(--resume-color);}
