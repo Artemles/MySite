@@ -1,4 +1,90 @@
-main {
-    padding-left: 190px;
-    background: url(/Images/) repeat;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.nav__list{
+    left: 0;
+    position: fixed;
+    width: 190px;
+}
+
+.nav__listLogo{
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2.6rem;
+    color: #008073;
+}
+
+.brown__text{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #795548;
+    margin-top: 1rem;
+}
+
+.nav__listItem{
+    box-sizing: content-box;
+    display: block;
+    line-height: 100%;
+    padding: 10px 0 12px;
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: #333;
+}
+
+.icon{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.icon__adout{
+    background-image: url(/Images);
+}
+.icon__exp{
+    background-image: url(/Images);
+}
+.icon__projects{
+    background-image: url(/Images);
+}
+.icon__skills{
+    background-image: url(/Images);
+}
+.icon__awards{
+    background-image: url(/Images);
+}
+.icon__education{
+    background-image: url(/Images/education.png);
+}
+.icon__contact{
+    background-image: url(/Images);
+}
+.icon__blog{
+    background-image: url(/Images/blog.png);
+}
+.icon__resume{
+    background-image: url(/Images/);
 }
