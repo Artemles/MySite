@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
 html{
@@ -22,17 +21,31 @@ html{
     --resume-color:  #424242;
     --liteGray-color:#fafafa;
     --gray-color:    #dddddd;
+    --white-color:   #ffffff;
 }
 
-a{
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
     color: var(--black-color);
     text-decoration: none;
+}
+
+main{
+    background: url(/Images/bg.png) repeat;
+    height: 100%;
+    padding-left: 190px;
 }
 
 .nav__list{
     left: 0;
     position: fixed;
     width: 19rem;
+    height: 100%;
+    background-color: var(--white-color);
 }
 
 .nav__listLogo{
@@ -67,8 +80,7 @@ a{
 }
 .nav__listItem:hover{
     background-color: var(--liteGray-color);
-    border-left: 5px solid var(--about-color);
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
     cursor: pointer;
 }
 .nav__listItem a{
@@ -79,12 +91,44 @@ a{
     height: 100%;
     padding: 1rem 0 1.2rem;
     font-weight: 300;
+    color: black;
 }
 
 .icon{
     width: 2.9rem;
     height: 2.9rem;
     margin: 0 1rem;
+}
+
+.item__about:hover{
+    border-left: 5px solid var(--about-color);
+}
+.item__exp:hover{
+    border-left: 5px solid var(--exp-color);
+}
+.item__projects:hover{
+    border-left: 5px solid var(--projects-color);
+}
+.item__games:hover{
+    border-left: 5px solid var(--games-color);
+}
+.item__skills:hover{
+    border-left: 5px solid var(--skills-color);
+}
+.item__awards:hover{
+    border-left: 5px solid var(--awards-color);
+}
+.item__education:hover{
+    border-left: 5px solid var(--education-color);
+}
+.item__contact:hover{
+    border-left: 5px solid var(--contact-color);
+}
+.item__blog:hover{
+    border-left: 5px solid var(--blog-color);
+}
+.item__resume:hover{
+    border-left: 5px solid var(--resume-color);
 }
 
 .icon__about   { fill: var(--about-color);}
@@ -97,3 +141,119 @@ a{
 .icon__contact { fill: var(--contact-color);}
 .icon__blog    { fill: var(--blog-color);}
 .icon__resume  { fill: var(--resume-color);}
+
+
+
+/* section intro */
+
+#intro.section {
+    background: url(/Images/bg_intro.jpg) no-repeat top center/cover;
+    position: relative;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#intro.section .container {
+    color: white;
+    font-weight: 200;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+h2 {
+    font-size: 3.56rem;
+    line-height: 3.916rem;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 2.28rem;
+    line-height: 2.508rem;
+    margin: 1.14rem 0 0.912rem 0;
+}
+
+#intro.section .teal {
+    padding: 0 10px;
+}
+
+.teal {
+    background-color: #008073 !important;
+}
+
+/* section about */
+
+.about__title{
+    color: var(--white-color);
+    font-size: 3rem;
+    padding: 3rem 4rem;
+    margin-bottom: 6rem;
+}
+
+/*section skills*/
+.cardGroup {
+    margin-bottom: 60px;
+    background-color: var(--white-color);
+    padding: 2rem 2rem 1rem 2rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+ .card__title{
+    color: #795548;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.card__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    color: var(--blackmedium-color);
+}
+
+.card__item img{
+    width: 9rem;
+    height: 9rem;
+}
+
+/* education section*/
+
+
+
+
+@media (max-width: 992px) {
+    .nav__list {display: none;}
+    main{
+        padding-left: 0;
+    }
+} 
+
+@media (max-width: 576px) {
+    .img__tulgu{
+        display: none;
+    }
+} 
