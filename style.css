@@ -31,7 +31,7 @@ a:hover{
 }
 
 main{
-    background: url(/Images/bg.png) repeat;
+    background: url(Images/bg.png) repeat;
     height: 100%;
     padding-left: 21rem;
 }
@@ -171,7 +171,7 @@ p{
 /* section intro */
 
 #intro.section {
-    background: url(/Images/bg_intro.jpg) no-repeat top center/cover;
+    background: url(Images/bg_intro.jpg) no-repeat top center/cover;
     position: relative;
 }
 
