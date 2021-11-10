@@ -197,7 +197,7 @@ p{
 }
 
 #intro.section .container {
-    color: white;
+    color: var(--white-color);
     font-weight: 200;
     left: 0;
     position: absolute;
