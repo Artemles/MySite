@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-}
-
 html{
     font-size: 10px;
 }
@@ -30,20 +26,48 @@ ul{
 }
 
 a:hover{
-    color: var(--black-color);
+    color: var(--about-color);
     text-decoration: none;
 }
 
 main{
     background: url(/Images/bg.png) repeat;
     height: 100%;
-    padding-left: 190px;
+    padding-left: 21rem;
+}
+
+h1 {
+    font-size: 4rem; 
+    line-height: 4.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin: 0 0 1.5rem 0;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 6rem;
+    padding: 3rem 4rem;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+
 }
 
 .nav__list{
     left: 0;
     position: fixed;
-    width: 19rem;
+    width: 21rem;
     height: 100%;
     background-color: var(--white-color);
 }
@@ -52,7 +76,7 @@ main{
     background-color: var(--liteGray-color);
     border-bottom: 1px solid var(--gray-color);
     box-sizing: content-box;
-    min-height: 90px;
+    min-height: 9rem;
     padding: 3rem 3rem 4rem;
     display: flex;
     justify-content: center;
@@ -151,6 +175,13 @@ main{
     position: relative;
 }
 
+.intro__textPositeon{
+    min-height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .full-height {
     height: 100vh;
 }
@@ -173,27 +204,10 @@ main{
     top: 0;
 }
 
-h2 {
-    font-size: 3.56rem;
-    line-height: 3.916rem;
-    margin: 1.78rem 0 1.424rem 0;
-}
-
-h3 {
-    font-weight: 200;
-    margin-bottom: 60px;
-    margin-top: 0;
-    padding: 30px 40px;
-    text-transform: uppercase;
-}
-h4 {
-    font-size: 2.28rem;
-    line-height: 2.508rem;
-    margin: 1.14rem 0 0.912rem 0;
-}
-
 #intro.section .teal {
-    padding: 0 10px;
+    padding: 0.3rem 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .teal {
@@ -209,11 +223,34 @@ h4 {
     margin-bottom: 6rem;
 }
 
+.about__titleText{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+
+.about__margin{
+    margin-bottom: 8rem;
+}
+
+.cardGroup__logo{
+    margin-bottom: 2rem;
+}
+
+.cardGroup__iconService{
+    width: 7rem;
+}
+
+.cardGroup__iconRutego{
+    width: 10.5rem;
+}
+
 /*section games*/
 .projects__img{
     width: 100%;
     height: 14rem;
     background: black;
+    margin-bottom: 1rem;
 }
 .projects__link{
     display: block;
@@ -226,7 +263,7 @@ h4 {
 
 /*section skills*/
 .cardGroup {
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
     background-color: var(--white-color);
     padding: 2rem 2rem 1rem 2rem;
     -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
@@ -237,8 +274,8 @@ h4 {
  .card__title{
     color: #795548;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .card__item{
