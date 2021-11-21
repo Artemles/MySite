@@ -37,7 +37,7 @@
 					<span>Опыт</span>
 				</a>
 			</li>
-			<li class="nav__listItem item__projects">
+			<li id="Projects" class="nav__listItem item__projects">
 				<a href="#Projects">
 					<svg class="icon icon__projects">
 						<use xlink:href="sprite.svg#projects"></use>
@@ -83,14 +83,6 @@
 						<use xlink:href="sprite.svg#contact"></use>
 					</svg>
 					<span>Контакты</span>
-				</a>
-			</li>
-			<li class="nav__listItem item__blog">
-				<a href="#Blog">
-					<svg class="icon icon__blog">
-						<use xlink:href="sprite.svg#blog"></use>
-					</svg>
-					<span>Блог</span>
 				</a>
 			</li>
 			<li class="nav__listItem item__resume">
@@ -152,6 +144,19 @@
 		<section id="Experience">
 			<h3 class="about__title page-title white-text teal">Опыт</h3>
 			<div class="container">
+				<div class="col">
+					<div class="cardGroup">
+						<div class="cardGroup__logo">
+							<img class="cardGroup__iconIsmMonitoring" src="Images/ism_monitoring.png" alt="servisCloud">
+						</div>
+						<div>
+							<h4>Веб-разработчик (Junior)</h4>
+							<p>Участие в разработке интернет-магазина, корпоративного сайта, создание компонентов, разделов, на CMS 1Сбитрикс</p>
+							<p><strong>Стек:</strong>  PHP, JS, Scss, CMS Битрикс, jQuery, Gitlab, PhpStorm</p>
+						</div>
+						<p>Ноября 2021 — Текущие время</p>
+					</div>
+				</div>
 				<div class="col">
 					<div class="cardGroup">
 						<div class="cardGroup__logo">
@@ -260,10 +265,10 @@
 				<div class="row">
 					<div class="col">
 						<div class="cardGroup">
-							<a href="" class="projects__link">
+							<a href="site/cliker.html" class="projects__link">
 								<img src="" class="projects__img" alt="">
 								<div>
-									<h4>Название проекта</h4>
+									<h4>Cliker</h4>
 									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate
 										maxime natus non, atque iure facere quasi rem ducimus ex commodi officiis earum
 										repellendus fuga saepe odio culpa itaque! Consequuntur.</p>
@@ -273,13 +278,11 @@
 					</div>
 					<div class="col">
 						<div class="cardGroup">
-							<a href="" class="projects__link">
-								<img src="" class="projects__img" alt="">
+							<a href="site/snakeGames.html" class="projects__link">
+								<img src="Images/sneikeGame/SnaikeGame.png" class="projects__img" alt="">
 								<div>
-									<h4>Название проекта</h4>
-									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate
-										maxime natus non, atque iure facere quasi rem ducimus ex commodi officiis earum
-										repellendus fuga saepe odio culpa itaque! Consequuntur.</p>
+									<h4>Snake</h4>
+									<p>Полноценный проект игры Змейки</p>
 								</div>
 							</a>
 						</div>
@@ -390,6 +393,14 @@
 					<div class="col">
 						<div class="cardGroup">
 							<div>
+								<h4>TulaHack-2021</h4>
+								<p>Участник IV межрегионального хакатона TulaHack-2021.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="cardGroup">
+							<div>
 								<h4>Сертификация <br> веб-программиста</h4>
 								<p>Прохождение стажировки в It-компании Scloud</p>
 								<p>Дата начала: 15.03.2021</p>
@@ -405,7 +416,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col">
+				</div>
+				<div class="row">
+					<div class="col-4">
 						<div class="cardGroup">
 							<div>
 								<h4>Призовое место на олимпиаде по информатике</h4>
@@ -453,7 +466,12 @@
 				<div class="row">
 					<div class="col">
 						<div class="cardGroup">
-							<img src="" alt="">
+							<a href="#Contact">
+								<svg class="icon icon__contact">
+									<use xlink:href="sprite.svg#contact"></use>
+								</svg>
+								<span>Контакты</span>
+							</a>
 							<div>
 								<h4>TulaHuck 2020</h4>
 								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate maxime
