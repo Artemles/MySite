@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+}
+
+.header__position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 228px;
+}
+header{
+    background: url(/site/modernSite/img/jeremy-bishop-YH40zWhBx4M-unsplash\ 1.png) no-repeat;
+    background-size: cover;
+}
+.header__blackGradient{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header__title{
+    font-size: 20px;
+    min-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header__mainText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 110%;
+    width: 1286px;
+    /* or 79px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -2px;
+
+color: #F9CDCD;
+}
+.header__discriptonText{
+    width: 526px;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+    text-align: center;
+
+    color: #FCFCFC;
+}
+.header__button{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: 0.5s;
+}
+.header__button:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+   
+}
+main{
+    background: #E5E5E5;
+}
+.main__wrap{
+    padding: 161px 35px 80px 35px;
+    padding-top: 161px;
+}
+
+.main__title{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 110%;
+    margin-bottom: 80px;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.menu__links a{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 47px;
+    margin-right: 42px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    color: black;
+
+    text-decoration: none;
+}
+.menu__links a:hover{
+    border-bottom: 1px solid black;
+}
+
+.menu__text p{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.news{
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.news__imgWrap{
+    margin-right: 70px;
+}
+
+.news__description{
+    width: 100%;
+}
+
+.news__title{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 49px;
+    /* or 144% */
+
+    text-transform: uppercase;
+}
+
+.news__text{
+    display: flex;
+    justify-content: space-between;
+}
+.news__h3{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+}
+.news__p{
+    width: 563px;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.news__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.hesh{
+    font-family: 'Aileron';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 29px;
+/* or 207% */
+
+
+color: #616366;
+}
+
+.news__link{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    text-decoration: none;
+
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.footer__background{
+    background: #1F2124;
+    padding: 160px 34px 0 34px;
+}
+
+.footerHead__wrap{
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.footer__title{
+    margin: 0;
+    padding-bottom: 80px;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 110%;
+    color: #F9CDCD;
+}
+
+.footer__position{
+    display: flex;
+    justify-content: end;
+}
+
+.footer__description{
+    margin: 0 0 30px 0;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #F2F4F3;
+}
+
+.footer__textWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__textHeader{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 110%;
+    text-transform: uppercase;
+
+    color: #F9CDCD;
+}
+
+.footer__container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    border-bottom: 1px solid white;
+    margin-bottom: 60px;
+}
+
+.footer__textTitle{
+    width: 240px;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 110%;
+    text-transform: uppercase;
+
+    color: #F9CDCD;
+}
+.footer__textDiscription{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    width: 319px;
+
+    color: #FEFCFF;
+}
+
+.footer__underMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 98px 34px 0 34px;
+    margin-bottom: 30px;
+}
+
+.footer__underMain_title{
+    color: #1F2124;
+}
+.footer__underMain_text{
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    text-transform: uppercase;
+    width: 510px;
+
+    color: #1F2124;
+}
